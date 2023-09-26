@@ -1,5 +1,10 @@
 	-- Import the Aerospike module
 local aerospike = require("aerospike")
+if Import success then 
+	print("Aerospike has been imported successfully")
+else 
+	print("Failed to import the Aerospike database")
+end
  
 -- Function to create an Aerospike database
 -- @param namespace: The namespace for the database.
@@ -39,11 +44,11 @@ end
 local namespace = "test"
 local set = "data"
 local host = "127.0.0.1"
-local port = 3000
+local port = 3000 
  
 local success = createAerospikeDatabase(namespace, set, host, port)
 if success then
-    print("Aerospike database created successfully.")
+    print("Aerospike database has been created successfully.")
 else
-    print("Failed to create Aerospike database.")
+    print("Failed to create the Aerospike database.")
 end
