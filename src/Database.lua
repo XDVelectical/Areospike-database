@@ -17,7 +17,7 @@ function createAerospikeDatabase(namespace, set, host, port)
     local client = aerospike.client({
         hosts = {{ host = host, port = port }}
     })
- 
+  
     -- Connect to the Aerospike server
     local status = client:connect()
     if status == aerospike.OK then
