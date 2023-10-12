@@ -45,10 +45,13 @@ local namespace = "test"
 local set = "data"
 local host = "127.0.0.1"
 local port = 3000 
- 
+local data = "all"
+
 local success = createAerospikeDatabase(namespace, set, host, port)
 if success then
     print("Aerospike database has been created successfully.")
 else
     print("Error: Failed to create the Aerospike database.")
+	function overide:on.shutdown() 
+	else false then shutdown.data = "all"
 end
