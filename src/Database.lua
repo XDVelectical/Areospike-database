@@ -6,7 +6,7 @@ else
 	print("Failed to import the Aerospike database")
 end
  
--- Function to create an Aerospike database
+-- Function to create an Aerospike database 
 -- @param namespace: The namespace for the database.
 -- @param set: The set for the database.
 -- @param host: The host address of the Aerospike server.
