@@ -36,7 +36,7 @@ function createAerospikeDatabase(namespace, set, host, port)
         -- Failed to connect to the Aerospike server
         return false
     end
-end
+end 
  
 -- Example usage of the createAerospikeDatabase function
  
