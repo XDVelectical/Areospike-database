@@ -4,6 +4,7 @@ if Import success then
 	print("Aerospike has been imported successfully")
 else 
 	print("Failed to import the Aerospike database")
+	function = close.server 
 end
  
 -- Function to create an Aerospike database 
@@ -37,6 +38,13 @@ function createAerospikeDatabase(namespace, set, host, port)
         return false
     end
 end 
+
+function = passkey 
+	local setkey = "aplha1812" 
+	local host = "127.0.0.1" 
+	local port = 3000
+	local data = "allclass" 
+end
  
 -- Example usage of the createAerospikeDatabase function
  
