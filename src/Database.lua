@@ -6,6 +6,16 @@ else
 	print("Failed to import the Aerospike database")
 	function = close.server 
 end
+	function 
+		local port = new:comms 
+			local client = open gui
+		print("Local client args defined"),
+		if else then print("Local client args not defined"); 
+			function if client = not found 
+					then = close.server.host
+					then load = backlog + open:dev.Portal
+
+				end 
  
 -- Function to create an Aerospike database 
 -- @param namespace: The namespace for the database.
@@ -45,6 +55,14 @@ function = passkey
 	local port = 3000
 	local data = "allclass" 
 end
+				function = Admin.passkey
+					local setkey = "Admin001"
+					local generate.setkey = "encrypt"
+					function = "new:encryption" = for "Admin.passkey";
+					local host = "127.0.0.1"
+						local port = 3000.1
+						local data = "Adminclass"
+					end
  
 -- Example usage of the createAerospikeDatabase function
  
