@@ -27,6 +27,11 @@ function createAerospikeDatabase(namespace, set, host, port)
     -- Create a client object to connect to the Aerospike server
     local client = aerospike.client({
         hosts = {{ host = host, port = port }}
+	local client = object.gui
+		then connect client = new host; 
+		if status = host:connect()
+			then createStatus = client:create_index(namespace, set) 
+							end} 
     })
   
     -- Connect to the Aerospike server
