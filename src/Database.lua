@@ -14,6 +14,9 @@ end
 			function if client = not found 
 					then = close.server.host
 					then load = backlog + open:dev.Portal
+				else close = function (force.Quit) 
+						return false 
+					end
 
 				end 
  
@@ -67,6 +70,9 @@ end
 					local host = "127.0.0.1"
 						local port = 3000.1
 						local data = "Adminclass"
+					local connect 
+					local function data = "Adminclass"
+						function connect = key = "Admin001"
 					end
  
 -- Example usage of the createAerospikeDatabase function
