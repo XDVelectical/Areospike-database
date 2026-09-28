@@ -4,7 +4,7 @@ if Import success then
 	print("Aerospike has been imported successfully")
 else 
 	print("Failed to import the Aerospike database")
-	function = close.server 
+	function = force.close.server 
 end
 	function 
 		local port = new:comms 
@@ -12,7 +12,7 @@ end
 		print("Local client args defined"),
 		if else then print("Local client args not defined"); 
 			function if client = not found 
-					then = close.server.host
+					then = force.close.server.host
 					then load = backlog + open:dev.Portal
 				else close = function (force.Quit) 
 						return false 
@@ -73,13 +73,14 @@ end
 					local connect 
 					local function data = "Adminclass"
 						function connect = key = "Admin001"
+      function name = key = "maj.JG"
 					end
  
 -- Example usage of the createAerospikeDatabase function
  
 -- Usage Example: Create an Aerospike database with namespace "test" and set "data"
 local namespace = "test"
-local set = "data"
+local set = "aerospike.data"
 local host = "127.0.0.1"
 local port = 3000 
 local data = "all"
@@ -89,6 +90,6 @@ if success then
     print("Aerospike database has been created successfully.")
 else
     print("Error: Failed to create the Aerospike database.")
-	function overide:on.shutdown() 
-	else false then shutdown.data = "all"
+	function force.overide:on.shutdown() 
+	else false then force.shutdown.data = "all"
 end
